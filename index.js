@@ -31,6 +31,9 @@ const newHeader = document.createElement("h1");
 newHeader.id = "victory";
 document.body.append(newHeader);
 
+// newHeader.innerHTML = 'NESTOR is the champion';
+// newHeader.textContent = 'NESTOR is the champion';
+
 function insertName(name){
 newHeader.textContent = `${name} is the champion`;
 }
