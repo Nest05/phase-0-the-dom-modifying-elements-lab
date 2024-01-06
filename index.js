@@ -29,7 +29,7 @@ main.remove();
 
 const newHeader = document.createElement("h1");
 newHeader.id = "victory";
-document.body.append(newHeader);
+
 
 // newHeader.innerHTML = 'NESTOR is the champion';
 // newHeader.textContent = 'NESTOR is the champion';
@@ -39,5 +39,5 @@ newHeader.textContent = `${name} is the champion`;
 }
 
 insertName('NESTOR-MASINDE');
-
+document.body.append(newHeader);
 // This is correct don't know what's up with that npm test but, the problem ain't the code
